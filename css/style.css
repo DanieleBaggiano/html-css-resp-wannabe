@@ -61,6 +61,19 @@ img {
     padding-right: 1rem;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        width: 50%;
+        max-width: 100vh;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 23%;
+    }
+}
+
 /* TEXT */
 .text-center {
     text-align: center;
@@ -122,6 +135,12 @@ img {
 .why-us li {
     list-style: none;
     margin-bottom: 2.5rem;
+}
+
+@media screen and (max-width: 480px) {
+    .why-us {
+        background-color: black;
+    }
 }
 
 /************************************************
